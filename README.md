@@ -3,9 +3,15 @@
 This is an implementation of a change calculator such as you might find in
 a vending machine.  Given an amount of money, it will tell you all the coins you need to make that amount using the standard UK denominations of coins (£2, £1, 50p, 20p, 10p, 5p, 2p, 1p).  For example, to make change of £2.12 you need one each of the £2, 10p, and 2p coins whereas to make £1.44 you need one £1 and two each of the 20p and 2p coins.  We will minimise the coins used to make the change, so while you can make £1.53 with three 50p coins and three 1p coins the result we want is one each of the £1, 50p, 2p and 1p coins because it uses less coins.
 
-## Installation
+## Setup
 
-Execute:
+Clone the repo and checkout the branch:
+
+    $ git clone https://github.com/meetcleo/cleo-change-calculator-exercise.git
+    $ cd cleo-change-calculator-exercise
+    $ git checkout grad-hiring
+
+Then execute:
 
     $ bundle install
 
