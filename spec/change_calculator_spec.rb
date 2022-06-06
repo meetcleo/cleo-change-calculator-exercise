@@ -1,7 +1,7 @@
-require 'change_calculator'
+require "change_calculator"
 
 RSpec.describe ChangeCalculator do
-  it 'exists' do
+  it "exists" do
     expect(defined? described_class).to be_truthy
   end
 end

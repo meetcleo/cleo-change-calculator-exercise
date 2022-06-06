@@ -1,6 +1,7 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'rspec'
-gem 'minitest'
-gem 'pry'
+gem "minitest"
+gem "pry"
+gem "rake"
+gem "rspec"
+gem "rubocop", "~> 1.27"
