@@ -7,8 +7,8 @@ RSpec.describe ChangeCalculator do
     expect(change_calculator.coins_needed(amount: 0)).to eq([])
   end
 
-  it 'returns exactly one coin, of the correct denominiation, if that is the amount requested' do
-    [1,2,5,10,20,50,100,200].each do |coin_value|
+  [1,2,5,10,20,50,100,200].each do |coin_value|
+    it "returns exactly one coin, of the correct denominiation, if that is the amount requested - #{coin_value}" do
       expect(change_calculator.coins_needed(amount: coin_value)).to eq([coin_value])
     end
   end
